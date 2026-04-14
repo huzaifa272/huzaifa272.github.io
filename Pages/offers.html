@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TechGizmoHub | Offers</title>
+    <link rel="stylesheet" href="/css/sky.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .offers-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 40px;
+        }
+
+        .card {
+            width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: red;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+
+        .buy-btn {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .buy-btn:hover {
+            background-color: darkgreen;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Special Offers</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/mobiles.html">Mobiles</a></li>
+        <li><a href="/pages/laptops.html">Laptops</a></li>
+        <li><a href="/pages/smarthome.html">Smart Home</a></li>
+        <li><a href="/pages/accessories.html">Accessories</a></li>
+        <li><a href="/pages/offers.html">Offers</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<p>Up to 20% discount on selected items.</p>
+
+<div class="offers-container">
+
+    <div class="card">
+        <h3>Wireless Headphones</h3>
+        <img src="/assets/Images/headphones.avif" alt="Wireless Headphones">
+        <p class="old-price">£200</p>
+        <p class="price">£100</p>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Smart TV</h3>
+        <img src="/assets/Images/tv.avif" alt="Smart TV">
+        <p class="old-price">£1000</p>
+        <p class="price">£500</p>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Desktop Computer</h3>
+        <img src="/assets/Images/computer.avif" alt="Desktop Computer">
+        <p class="old-price">£200</p>
+        <p class="price">£50</p>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
